@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+
+<body>
+  <h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('jsfile').src='B1.gif'">Turn on the light</button>
+
+<img id="jsfile" src="B2.gif" style="color:red" >
+
+<button onclick="document.getElementById('jsfile').src='B2.gif'">Turn off the light</button>
+
+<p id="demo">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.color='red'">dikhao</button>
+
+
+<p id="demo2">JavaScript can hide HTML elements.......</p>
+
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">don't show</button>
+
+  
+  <p>JavaScript can show hidden HTML elements.</p>
+
+<p id="demo3" style="display:none">Hello JavaScript!</p>
+<button type="button" onclick="document.getElementById('demo3').style.display='block'">show</button>
+
+  
+<p id="demo4">this is printed by script</p>
+  
+<h1>welcome to Java script programming </h1>
+<div class="container">
+   <button type="click">click me </button>
+  <p>this is paragraph </p>
+  </div>
+
+
+</body>
+<script>
+console.log('hello world ')
+
+document.getElementById("demo4").innerHTML = "My First script print";
+//alert('Hii this is me divya')
+</script>
+
+</html>

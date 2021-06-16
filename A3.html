@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>starting Java script programming </title>
+
+</head>
+
+<body>
+
+<h1>A Web Page</h1>
+<p id="demo"></p>
+<p id="demo5"></p>
+<h2>Addition through js</h2>
+<p id="demo6"></p>
+  <button type="button" onclick="myFunction()">show me</button>
+
+
+<p id="demo7">this is both for functions </p>
+<p id="demo8"></p>
+<p id="demo9">this is string</p>
+<p id="demo10">this is used to change last name</p>
+
+<h1 id="myH"></h1>
+<p id="myP"></p>
+
+
+<p id="demo11"></p>
+
+<script>
+document.getElementById("demo").innerHTML = (5 + 6) * 10;
+document.getElementById("demo5").innerHTML = "Hello Dolly !";
+var a, b, c;
+a = 5;
+b = 6;
+c = a + b;
+document.getElementById("demo6").innerHTML = c;
+
+function myFunction() {
+  document.getElementById("demo8").innerHTML = "Hello Dolly!";
+  document.getElementById("demo7").innerHTML = "How are you?";
+}
+
+
+document.getElementById("demo9").innerHTML = "Divya" + " "  + "Kumari";
+
+
+var lastname, lastName;
+lastName = "Sinha";
+lastname = "Kumari";
+document.getElementById("demo10").innerHTML = lastName;
+
+
+
+
+  // Change heading:
+  document.getElementById("myH").innerHTML = "JavaScript Comments";
+  // Change paragraph:
+  document.getElementById("myP").innerHTML = "My first paragraph ";
+
+
+var x = 5; // Declare x, give it the value of 5
+var y = x + 2; // Declare y, give it the value of x + 2
+// Write y to demo:
+document.getElementById("demo11").innerHTML = y;
+
+</script>
+
+</body>
+
+</html>
